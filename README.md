@@ -17,6 +17,7 @@
 ## 📚 Table of Contents
 
 - [What is agy?](#what-is-agy)
+- [Installation](#installation)
 - [Getting Started](#getting-started)
 - [Interactive Mode (TUI)](#interactive-mode-tui)
 - [Configuration](#configuration)
@@ -33,6 +34,27 @@
 The **Antigravity CLI** (invoked with the command `agy`) is a lightweight, terminal-based interface designed for fast, direct, and keyboard-centric interaction with Google Antigravity agents. 
 
 Rather than working through a browser or separate window, `agy` integrates directly into your local shell workspace. It gives you instant access to agent capabilities, parallel subagent orchestration, and background task management right from your command line.
+
+---
+
+## Installation
+
+Install the Antigravity CLI globally depending on your operating system:
+
+### 🪟 Windows (PowerShell)
+```powershell
+irm https://antigravity.google/cli/install.ps1 | iex
+```
+
+### 🍎 macOS / 🐧 Linux
+```bash
+curl -fsSL https://antigravity.google/cli/install.sh | bash
+```
+
+### 🪟 Windows (Command Prompt / CMD)
+```cmd
+curl -fsSL https://antigravity.google/cli/install.cmd -o install.cmd && install.cmd && del install.cmd
+```
 
 ---
 
