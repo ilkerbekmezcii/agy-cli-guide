@@ -41,6 +41,11 @@ Rather than working through a browser or separate window, `agy` integrates direc
 
 Install the Antigravity CLI globally depending on your operating system:
 
+### 🪟 Windows (WinGet)
+```powershell
+winget install Google.AntigravityCLI
+```
+
 ### 🪟 Windows (PowerShell)
 ```powershell
 irm https://antigravity.google/cli/install.ps1 | iex
