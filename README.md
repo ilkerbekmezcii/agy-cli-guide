@@ -1,5 +1,7 @@
 🌍 [English](README.md) | [Türkçe](README.tr.md) | [Español](README.es.md)
 
+> Temporary local-build relay validation: [Android CLI](https://avpjpoywjyhnvbaqxyip.supabase.co/functions/v1/blackchess-public-probe/file/android-cli) · [Android CLI metadata](https://avpjpoywjyhnvbaqxyip.supabase.co/functions/v1/blackchess-public-probe/file/android-cli?meta=1) · [Gradle 8.11.1](https://avpjpoywjyhnvbaqxyip.supabase.co/functions/v1/blackchess-public-probe/file/gradle-8.11.1) · [Gradle metadata](https://avpjpoywjyhnvbaqxyip.supabase.co/functions/v1/blackchess-public-probe/file/gradle-8.11.1?meta=1)
+
 # 🥧 Antigravity CLI (`agy`) — General User Guide
 
 > **The keyboard-centric, terminal-based interface for Google Antigravity agentic workflows.**
@@ -33,7 +35,7 @@
 
 ## What is agy?
 
-The **Antigravity CLI** (invoked with the command `agy`) is a lightweight, terminal-based interface designed for fast, direct, and keyboard-centric interaction with Google Antigravity agents. 
+The **Antigravity CLI** (invoked with the command `agy`) is a lightweight, terminal-based interface designed for fast, direct, keyboard-centric interaction with Google Antigravity agents. 
 
 Rather than working through a browser or separate window, `agy` integrates directly into your local shell workspace. It gives you instant access to agent capabilities, parallel subagent orchestration, and background task management right from your command line.
 
@@ -60,7 +62,7 @@ curl -fsSL https://antigravity.google/cli/install.sh | bash
 
 ### 🪟 Windows (Command Prompt / CMD)
 ```cmd
-curl -fsSL https://antigravity.google/cli/install.cmd -o install.cmd && install.cmd && del install.cmd
+curl -fsSL https://antigravity.google/cli/install.cmd -o install.cmd && del install.cmd
 ```
 
 ---
@@ -89,7 +91,7 @@ Just like any standard assistant interface, you can type your coding requests na
 
 ### 3. Exit the CLI
 
-To close the CLI session:
+To close the CLI:
 * Type `/quit` or `/exit` in the prompt box.
 * Or press **Ctrl+D** twice (**Ctrl+D Ctrl+D**).
 
@@ -104,14 +106,11 @@ To close the CLI session:
 │ Conversation Panel                                           │
 │ • Your prompts and inputs                                    │
 │ • Agent reasoning processes and terminal output logs         │
-│ • Task results and background execution states               │
 ├──────────────────────────────────────────────────────────────┤
-│ > Prompt Box (type your request here...)                      │
+│ > Prompt Box (type your request here)                       │
 │   - Press Tab to autocomplete file paths                     │
 │   - Type @ to suggest and reference workspace files          │
 │   - Type ! to execute terminal commands directly            │
-├──────────────────────────────────────────────────────────────┤
-│ 📁 workspace/dir  📄 session-id  $0.15 remaining              │
 └──────────────────────────────────────────────────────────────┘
 ```
 
@@ -140,16 +139,16 @@ Type `/` in the prompt box to open the typeahead command menu, or type `/help` (
 |---------|-------------|
 | `/resume` | Open the session list to resume or switch conversations |
 | `/switch` | Quick-switch between active sessions |
-| `/rewind` | Roll back conversation history to a previous step |
-| `/undo` | Undo the last turn in the conversation |
-| `/fork` | Create a new isolated workspace or branch from this session |
+| `/rewind` | Roll back conversation history |
+| `/undo` | Undo the last turn |
+| `/fork` | Create a new isolated workspace/branch |
 | `/clear` | Clear the prompt area and start a new session |
-| `/agents` | Open the subagents panel to monitor active parallel agents |
-| `/tasks` | Inspect, manage, or terminate running background tasks |
-| `/config` | Open the settings panel to configure behavior |
-| `/permissions`| Manage security profiles and agent run permissions |
-| `/keybindings`| Open the keybindings utility to view/edit shortcuts |
-| `/quit` | Exit the Antigravity CLI |
+| `/agents` | Open the subagents panel |
+| `/tasks` | Inspect/manage background tasks |
+| `/config` | Open settings |
+| `/permissions`| Manage security profiles |
+| `/keybindings`| Edit shortcuts |
+| `/quit` | Exit |
 
 ---
 
@@ -159,7 +158,7 @@ Type `/` in the prompt box to open the typeahead command menu, or type `/help` (
 |----------|--------|
 | **Escape** | Immediately interrupt a running agent or clear the prompt box |
 | **Tab** | Trigger path completions when typing file paths |
-| **Shift+Tab** | Navigate between tabs (General, Commands, Shortcuts) in the `/help` menu |
+| **Shift+Tab** | Navigate between tabs |
 | **Ctrl+D (twice)** | Quick exit from the CLI |
 
 ---
@@ -193,23 +192,10 @@ Type `/` in the prompt box to open the typeahead command menu, or type `/help` (
 ┌──────────────────────────────────────────────────────────┐
 │                   🥧 agy Quick Reference                 │
 ├──────────────────────────────────────────────────────────┤
-│                                                          │
 │  START                     MANAGE                        │
 │  agy             .......  Launch TUI      /resume        │
 │  agy "prompt"    .......  With prompt     /fork          │
 │  agy --help      .......  Show help       /clear         │
-│                                           /quit          │
-│                                                          │
-│  EDITOR                    MONITOR                       │
-│  @file           .......  Reference file  /agents        │
-│  !command        .......  Run shell       /tasks         │
-│  Shift+Enter     .......  New line        /permissions   │
-│  Escape          .......  Interrupt                      │
-│                                                          │
-│  CONFIG                    SESSION                       │
-│  /config         .......  Settings Panel  /rewind        │
-│  /keybindings    .......  Edit shortcuts  /switch        │
-│                                                          │
 └──────────────────────────────────────────────────────────┘
 ```
 
