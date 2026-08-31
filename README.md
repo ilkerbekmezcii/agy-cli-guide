@@ -201,4 +201,10 @@ Type `/` in the prompt box to open the typeahead command menu, or type `/help` (
 
 ---
 
+## 🛠️ Developer Tool
+
+Working with source code? **[CodeFormatter](https://codeformatter1.vercel.app/?utm_source=github&utm_medium=referral&utm_campaign=agy-cli-guide)** is a free online formatter and compact minifier for HTML, CSS, JavaScript, C# and JSON, with an isolated HTML Run preview. No sign-up required.
+
+---
+
 > **Antigravity CLI** — Proprietary — Developed with ❤️ by Google
