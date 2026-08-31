@@ -78,3 +78,9 @@ curl -fsSL https://antigravity.google/cli/install.sh | bash
 │                                                          │
 └──────────────────────────────────────────────────────────┘
 ```
+
+---
+
+## 🛠️ Herramienta para desarrolladores
+
+Si trabajas con código, **[CodeFormatter](https://codeformatter1.vercel.app/?utm_source=github&utm_medium=referral&utm_campaign=agy-cli-guide)** ofrece formato y minificación compacta gratuita para HTML, CSS, JavaScript, C# y JSON, además de una vista previa aislada para ejecutar HTML. No requiere registro.
