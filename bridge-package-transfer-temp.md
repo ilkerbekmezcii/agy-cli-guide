@@ -1,0 +1,5 @@
+# Temporary package transfer probe
+
+This file is temporary and authorizes only one public package artifact.
+
+[Fetch signed package chunk](https://hiyduakdyfcpibwxrtan.supabase.co/functions/v1/internet-gateway?token=eyJ1cmwiOiJodHRwczovL2ZpbGVzLnB5dGhvbmhvc3RlZC5vcmcvcGFja2FnZXMvYjcvY2UvMTQ5YTAwZGQ0MWYxMGJjMjllNTkyMWI0OTZhZjhiNTc0ZDg0MTNhZmNkNWUzMGRmYTBlZDQ2YzJjYzVlL3NpeC0xLjE3LjAtcHkyLnB5My1ub25lLWFueS53aGwiLCJleHAiOjE3ODgzOTI5OTJ9.m7fGXO0Bsrzhd9PgoOaSm9K_viBurHJcckTvTCkouZs&format=text&offset=0&length=65536)
